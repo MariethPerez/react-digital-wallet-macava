@@ -78,7 +78,7 @@ function NewTransaction() {
         </label>
         <label htmlFor="category">
           <select css={{ fontSize: 16, borderRadius: 120 }} name="category">
-            <option disabled>Choose a category</option>
+            <option hidden>Choose a category</option>
             {categories.map(category => {
               return <option value={category}>{category}</option>;
             })}
