@@ -34,9 +34,9 @@ function NewTransaction() {
     event.preventDefault();
     const data = toJSON(event.target.elements);
     if (data.type === "withdraws") {
-      data.amount = data.amount * -1;
+      data.amount *= -1;
     } else {
-      data.amount = data.amount * 1;
+      data.amount *= 1;
     }
     Object.assign(data, { id: Date.now() });
     addTransaction(data);
