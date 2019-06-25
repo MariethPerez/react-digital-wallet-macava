@@ -28,6 +28,11 @@ Create a digital wallet application using React and Redux.
 - [x] It must pass with green the Best Practices tests of the Chrome Audits
 - [ ] It must pass with green the SEO tests of the Chrome Audits
 
+## For PWA
+
+-yarn build
+-npx serve -s build
+
 ## Team Members
 
 - Carlos Ayala
