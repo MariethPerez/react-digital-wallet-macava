@@ -117,3 +117,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ![Main screen](images/pic01.png)
 ![new transaction](images/pic02.png)
 ![Month detail](images/pic03.png)
+![Month detail](images/pic04PWA.png)
