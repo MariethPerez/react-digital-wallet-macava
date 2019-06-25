@@ -30,8 +30,8 @@ Create a digital wallet application using React and Redux.
 
 ## For PWA
 
--yarn build
--npx serve -s build
+- yarn build
+- npx serve -s build
 
 ## Team Members
 
